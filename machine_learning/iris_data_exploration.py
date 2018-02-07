@@ -33,11 +33,11 @@ print(dataset.groupby('class').size())
 # Visualization - Univariate plots
 # box and whisker plots
 dataset.plot(kind = 'box', subplots = True, layout = (2,2), sharex = False, sharey=False)
-#plt.show()
+plt.show()
 
 # histogram
 dataset.hist()
-#plt.show()
+plt.show()
 
 # Visualization - Multivariate plots
 scatter_matrix(dataset)
